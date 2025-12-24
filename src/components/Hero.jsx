@@ -5,7 +5,7 @@ export default function Hero() {
       <h2>Frontend Developer</h2>
       <p>
         React Developer with experience in building web applications
-        using React, JavaScript, and REST APIs.
+        using React, JavaScript, and REST APIs.ss
       </p>
 
       <a href="#contact">
