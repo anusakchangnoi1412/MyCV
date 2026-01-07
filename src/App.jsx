@@ -8,6 +8,7 @@ import Contact from "./components/Contact"
 function App() {
   return (
     <>
+      'Hello'
       <Hero />
       <Skills />
       <Projects />
