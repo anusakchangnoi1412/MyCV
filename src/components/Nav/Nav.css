@@ -1,0 +1,18 @@
+.Nav{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+
+.nav-item{
+    font-weight: 500;
+    width: 100%;
+    min-width: 120px;
+}
+
+#navbarNav ul li a{
+    text-align: center;
+    width: 100%;
+}
