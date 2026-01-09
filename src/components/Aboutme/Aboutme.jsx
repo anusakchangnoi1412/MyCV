@@ -8,7 +8,7 @@ export default function AboutMe() {
             </div>
             <p>I graduated from Kasem Bundit University, Faculty of Engineering, majoring in Computer Science.</p>
             <p>I am looking for a job in the Developer field, with Fullstack Dev being my top priority.</p>
-            <p>My basic skills are in HTML, CSS, and JavaScript.</p>
+            <p>My basic skills are in HTML, CSS, and JavaScript.หหห</p>
         </section>
 
     )
