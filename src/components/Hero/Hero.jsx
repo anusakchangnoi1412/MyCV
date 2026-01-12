@@ -4,8 +4,8 @@ export default function Hero() {
   return (
     <section className='Hero'>
       <div className='info' >
-        <h1>Anusak Changnoi</h1>
-        <h2>Junior Developer</h2>
+        <h1>Hi, Welcome to MyCV Site</h1>
+        <h2>Finding <span style={{color: "red"}}>Junior Developer</span></h2>
         <p style={{ textShadow: '0px 0px' }} >
           I've never worked directly in this field before, but I want to start something new and step out of my comfort zone.
         </p>

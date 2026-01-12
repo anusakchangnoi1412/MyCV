@@ -1,8 +1,7 @@
 import Nav from "./components/Nav/Nav"
 import Hero from "./components/Hero/Hero"
 import Aboutme from "./components/Aboutme/Aboutme"
-import Skills from "./components/Skills"
-import Projects from "./components/Projects"
+import Project from "./components/Project/Project"
 import Contact from "./components/Contact"
 import './App.css'
 
@@ -20,10 +19,10 @@ function App() {
         <div className="aboutme">
           <Aboutme />
         </div>
-
-        {/* <Skills />
-      <Projects />
-      <Contact /> */}
+        <div className="project">
+          <Project />
+        </div>
+        {/* <Contact /> */}
       </div>
 
     </div>
