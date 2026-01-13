@@ -5,14 +5,21 @@ export default function Nav() {
         <nav style={{ width: "100%", paddingRight: "80px" }} className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
                 <a className="navbar-brand">Anusak Changnoi</a>
-                
+
                 <div id="navbarNav">
-                    <ul  className="navbar-nav justify-content-center">
+                    <ul className="navbar-nav justify-content-center">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Projects</a>
+                            <a className="nav-link" href="https://github.com/anusakchangnoi1412/"
+                            target='_blank'
+                            rel='nooperner noreferrer'
+                            >
+                                All Projects
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact</a>
+                            <a className="nav-link" href="https://www.facebook.com/anusak.changnoi.5"
+                                target="_blank"
+                                rel="noopener noreferrer">Fast Contact</a>
                         </li>
                         <li className="nav-item">
                             <button style={{ width: "100%" }} className='btn fw-bold' >CV</button>
