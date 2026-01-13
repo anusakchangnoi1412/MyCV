@@ -2,16 +2,14 @@ import Nav from "./components/Nav/Nav"
 import Hero from "./components/Hero/Hero"
 import Aboutme from "./components/Aboutme/Aboutme"
 import Project from "./components/Project/Project"
-import Contact from "./components/Contact"
+import Contact from "./components/Contact/Contact"
+import Footer from "./components/Nav/Footer"
 import './App.css'
 
 function App() {
   return (
     <div className="box">
-      <div>
         <Nav />
-      </div>
-
       <div className="main">
         <div>
           <Hero />
@@ -22,7 +20,11 @@ function App() {
         <div className="project">
           <Project />
         </div>
-        {/* <Contact /> */}
+        <div className="contact">
+          <Contact />
+        </div>
+        <Footer />
+        
       </div>
 
     </div>

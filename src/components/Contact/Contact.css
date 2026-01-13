@@ -1,4 +1,4 @@
-.Aboutme {
+.Contact {
     border-radius: 120px 120px 29px 29px;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,21 @@
     margin: 0 auto;
 }
 
-.aboutme-header {
+.contact-header {
     width: 100%;
     border-bottom: 3px solid rgb(80, 88, 156);
+    
+}
+
+.contact-info{
+    width: 80%;
+}
+
+.with-border > div {
+    border-right: 3px solid rgba(255, 255, 255, 0.319);
+}
+
+.contact-socail img{
+    width: 40px;
+    height: 40px;
 }

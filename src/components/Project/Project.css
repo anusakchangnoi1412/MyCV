@@ -6,13 +6,32 @@
     padding: 30px 40px 10px 40px;
     gap: 5px;
     margin: 0 auto;
-}
-
-.header {
     width: 100%;
 }
 
-.title {
+.project-header {
     width: 100%;
     border-bottom: 3px solid rgb(80, 88, 156);
+}
+
+.project-container{
+    width: 100%;
+}
+
+.project-container .carousel-control-prev {
+  height: 80%;
+  align-items: center;
+  position: block;
+  left: -25%;
+}
+.project-container .carousel-control-next{
+height: 80%;
+  align-items: center;
+  position: block;
+  right: -25%;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
 }

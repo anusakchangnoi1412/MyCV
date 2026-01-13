@@ -5,6 +5,14 @@ body {
   min-height: 100%;
   background-color: rgb(60, 70, 123);
   color: white;
+
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  
 }
 
 #root {
@@ -22,7 +30,7 @@ body {
   margin: 0 auto;
 }
 
-.aboutme, .project{
+.aboutme, .project, .contact{
   margin: 0 auto;
   width: 70%;
 }
