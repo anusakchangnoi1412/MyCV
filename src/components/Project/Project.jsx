@@ -26,7 +26,14 @@ export default function Project() {
                                             <div className='card-body'>
                                                 <p className="card-text">Make by HTML, CSS, Ract, Bootstrap</p>
                                                 <a href="#" className="btn btn-primary btn-sm">Demo</a>
-                                                <a href="#" className="btn btn-outline-dark btn-sm">GitHub</a>
+                                                <a 
+                                                href="https://github.com/anusakchangnoi1412/MyCV"
+                                                className="btn btn-outline-dark btn-sm"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                >
+                                                    GitHub
+                                                    </a>
                                             </div>
                                         </div>
                                     </div>
@@ -50,8 +57,8 @@ export default function Project() {
                                         <div className='card h-100'>
                                             <div className='card-body'>
                                                 <div className="card-header">
-                                                <h5 className='card-title'> Comming Soon... </h5>
-                                            </div>
+                                                    <h5 className='card-title'> Comming Soon... </h5>
+                                                </div>
                                                 <img src="https://s.isanook.com/wo/0/ud/4/20927/d21.jpg?ip/resize/w850/q80/jpg" className='card-img-top' alt="" />
                                                 <h5 className="card-title">Comming Soon...</h5>
                                                 {/* <p className="card-text">HTML, CSS, Bootstrap</p> */}
@@ -67,7 +74,7 @@ export default function Project() {
                             <div className='carousel-item'>
                                 <div className='row g-4'>
 
-                                   <div className='col-4'>
+                                    <div className='col-4'>
                                         <div className='card h-100'>
                                             <div className="card-header">
                                                 <h5 className='card-title'> Comming Soon... </h5>
@@ -86,8 +93,8 @@ export default function Project() {
                                         <div className='card h-100'>
                                             <div className='card-body'>
                                                 <div className="card-header">
-                                                <h5 className='card-title'> Comming Soon... </h5>
-                                            </div>
+                                                    <h5 className='card-title'> Comming Soon... </h5>
+                                                </div>
                                                 <img src="https://s.isanook.com/wo/0/ud/4/20927/d21.jpg?ip/resize/w850/q80/jpg" className='card-img-top' alt="" />
                                                 <h5 className="card-title">Comming Soon...</h5>
                                                 {/* <p className="card-text">HTML, CSS, Bootstrap</p> */}
@@ -96,13 +103,13 @@ export default function Project() {
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div className='col-4'>
                                         <div className='card h-100'>
                                             <div className='card-body'>
                                                 <div className="card-header">
-                                                <h5 className='card-title'> Comming Soon... </h5>
-                                            </div>
+                                                    <h5 className='card-title'> Comming Soon... </h5>
+                                                </div>
                                                 <img src="https://s.isanook.com/wo/0/ud/4/20927/d21.jpg?ip/resize/w850/q80/jpg" className='card-img-top' alt="" />
                                                 <h5 className="card-title">Comming Soon...</h5>
                                                 {/* <p className="card-text">HTML, CSS, Bootstrap</p> */}
